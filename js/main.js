@@ -27,7 +27,6 @@ function init() {
 
     scene = new THREE.Scene();
     scene.background = new THREE.Color(0xa0a0a0);
-    scene.fog = new THREE.Fog(0xa0a0a0, 200, 1000);
 
     const hemiLight = new THREE.HemisphereLight(0xffffff, 0x444444, 5);
     hemiLight.position.set(0, 200, 0);
